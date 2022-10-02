@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for Header Component Should render the component 1`] = `
+<styled.header>
+  <styled.div>
+    <styled.nav>
+      <Styled(NavLink)
+        activeClassName="is-active"
+        exact={true}
+        to="/albums"
+      >
+        Albums
+      </Styled(NavLink)>
+      <Styled(NavLink)
+        activeClassName="is-active"
+        exact={true}
+        to="/tracks"
+      >
+        Tracks
+      </Styled(NavLink)>
+    </styled.nav>
+  </styled.div>
+  <SidePanel />
+</styled.header>
+`;

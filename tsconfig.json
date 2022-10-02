@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "jsx": "react",
+    "lib": ["es6", "dom", "dom.iterable", "esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "plugins": [{
+      "name": "typescript-tslint-plugin"
+    }],
+    "resolveJsonModule": true,
+    "rootDir": "src",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es5",
+    // RULES
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "importHelpers": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "paths": {
+      "@Components/*": ["./src/components/*"],
+      "@Config/*": ["./src/config/*"],
+      "@Store/*": ["./src/store/*"],
+      "@Utils/*": ["./src/utils/*"],
+      "@Views/*": ["./src/views/*"],
+      "@Assets/*": ["./assets/*"],
+      "@Constants/*": ["./src/constants/*"]
+    }
+  },
+  "include": ["src", "assets"],
+  "exclude": [
+    "node_modules",
+    "build",
+    "coverage",
+    "webpack",
+    "jest",
+    "globals.d.ts"
+  ]
+}

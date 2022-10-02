@@ -1,0 +1,8 @@
+webpack.config.js
+node_modules/**
+jest.config.js
+stats.json
+coverage/**
+src/serviceWorker.ts
+build/**/*.*
+__mocks_/fileMock.js

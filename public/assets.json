@@ -1,0 +1,19 @@
+{
+  "manifest": {
+    "js": "/bundle.js"
+  },
+  "app": {
+    "js": "/app.bundle.js"
+  },
+  "vendors": {
+    "js": "/vendors.bundle.js"
+  },
+  "": {
+    "png": [
+      "/assets/images/528c918bc8050e2bed3830b7e7e018c8-defaultArtistCover.png",
+      "/assets/images/f929910b4862f1da1f985308ca8d47b2-deafultTrackCover.png",
+      "/logo.png"
+    ],
+    "html": "/index.html"
+  }
+}
